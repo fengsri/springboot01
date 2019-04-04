@@ -1,0 +1,11 @@
+#端口号
+server:
+  port: 8888
+  context-path: /test2
+
+#指定mybatis映射文件的地址
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+  type-aliases-package: com.gyf.model
+
